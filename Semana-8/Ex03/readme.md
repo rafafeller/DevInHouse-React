@@ -9,6 +9,7 @@ Exemplo:
 
 Considere esses dois componentes:
 
+```
 function UserGreeting(props) {
   return <h1>Welcome back!</h1>;
 }
@@ -19,6 +20,7 @@ function GuestGreeting(props) {
 
 Utilizando a renderização condicional será mosrado na tela um dos componentes acima, se o usuário estiver logado ou não:
 
+```
 function Greeting(props) {
   const isLoggedIn = props.isLoggedIn;
   if (isLoggedIn) {
@@ -32,3 +34,5 @@ ReactDOM.render(
   <Greeting isLoggedIn={false} />,
   document.getElementById('root')
 );
+
+
