@@ -8,8 +8,8 @@ Assim podemos utilizar props para adicionar propriedades de componentes.
 Como as props são como argumentos de funções, e você pode enviá-las para os componentes como atributos, esse exemplo de código renderiza "Hello Sara" na tela.
 
 Exemplo de código:
-
- function Welcome(props){
+```
+function Welcome(props){
      return <h1>Hello, {props.name}</h1>;
  }
 
@@ -18,4 +18,7 @@ Exemplo de código:
      element,
      document.getElementById("root")
  );
+
+
+ 
  
