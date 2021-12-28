@@ -17,6 +17,7 @@ function UserGreeting(props) {
 function GuestGreeting(props) {
   return <h1>Please sign up.</h1>;
 }
+```
 
 Utilizando a renderização condicional será mosrado na tela um dos componentes acima, se o usuário estiver logado ou não:
 
@@ -30,9 +31,8 @@ function Greeting(props) {
 }
 
 ReactDOM.render(
-  // Try changing to isLoggedIn={true}:
   <Greeting isLoggedIn={false} />,
   document.getElementById('root')
 );
-
+```
 
