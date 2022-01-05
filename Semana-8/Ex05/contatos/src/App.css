@@ -1,0 +1,32 @@
+
+.contato{
+  display: flex;
+  margin: 40px;
+
+}
+
+.contato-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  
+  padding-left: 20px;
+}
+
+p{
+  display: flex;
+  margin: 0;
+    
+}
+
+
+  
+  
+  
