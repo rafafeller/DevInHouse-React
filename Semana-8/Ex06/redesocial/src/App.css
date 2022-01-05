@@ -1,0 +1,60 @@
+.container{
+    width: 400px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.cabecalho{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.id_imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.id_imagem2{
+    width: 400px;
+    height: 300px;
+}
+
+h3{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.id_icon{
+   
+    margin-left: auto;
+}
+
+p{
+    text-align:justify;
+}
+
+.bottom{
+    display: flex;
+    align-items: center; 
+    margin: 0;  
+}
+
+.id_comments{
+    padding-left: 10px;
+}
+
+.id_share{
+    margin-left: auto;
+    padding: 0;
+}
+
+.id_like{
+    margin: 0;
+    padding: 0;
+}
+
+
