@@ -1,3 +1,7 @@
+Exercício: 
+
+=> Crie um componente de botão com as props background (Cor de fundo do botão) e title (Texto do botão).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
