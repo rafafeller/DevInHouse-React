@@ -1,3 +1,7 @@
+Exercício:
+
+=> Crie um componente de lista de contatos. Cada contato deve conter as props: photo, name e description.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
